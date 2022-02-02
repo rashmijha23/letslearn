@@ -12,17 +12,17 @@
     .form{
         border: dotted 4px red;
         background-color: tan;
-        
     }
-    .button{
-        width:100px;
-        font-size:20px;
-        background-color: skyblue;
-        color:green;
-        border:2px solid black;
-        
-        
+    .container{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding-top: 100px;
     }
+    .btn{
+        font-size: 30px;
+        }
+
     .button:hover{
         background-color: slategray;
     }
@@ -71,7 +71,7 @@
     
     <label>Name</label>&nbsp&nbsp<input type="text" name="fname" placeholder="Enter your name "><br><br>
     <label>Gender</label>&nbsp&nbsp<input type ="radio" name="gender" id="male"><label for="male">male</label><input type="radio" name="gender" ><label for="female">female</label><br><br>
-    <label>Email</label>&nbsp&nbsp<input type="email"placeholder="Enter your e-mail address" ><input type="submit" name=""/><br><br>
+    <label>Email</label>&nbsp&nbsp<input type="email"placeholder="Enter your e-mail address" ><br><br>
     <label>contact no.</label>&nbsp&nbsp&nbsp&nbsp<input type="number" name="" placeholder="enter your mobile no."/><br><br>
     <label>Booking Date</label>&nbsp&nbsp<input type="date"/><br><br>
     <label>Time</label>&nbsp&nbsp&nbsp&nbsp<input type="time"/><br><br>
@@ -82,10 +82,7 @@
         <option>more than 3</option><br><br>
 
     </select><br><br>
-
-    <div class="button">
-    <button class ="my button" >SUBMIT</button>
-</div>
+    <div class="container"><button class="btn btn-secondary">submit</button></div>
 
 </div>
 </font>
